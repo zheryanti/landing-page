@@ -1,0 +1,117 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+
+}
+
+div {
+    widhth: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header {
+    background-color: aqua(104, 104, 196);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color:beige;
+}
+
+.nav {
+    background-color: cornsilk;
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    widht: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:hover {
+    color:cyan(104, 104, 196);
+}
+.main {
+    display: flex;
+    background-color: azure;
+}
+.content {
+
+    widht: 100px;
+    margin: 0;
+    background-color: azure;
+    padding: 20px;
+
+}
+
+
+.content .artikel{
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: azure;
+    border-radius: 2px;
+    border: 2px solid lightgrey;
+    padding: 10px;
+    line-height: 1.6em;
+
+}
+
+.content .artikel .read{
+    color:black;
+    border: 1px solid lightgrey;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content .artikel .read a {
+    color:black;
+
+}}
+
+.sidebar {
+    justify-content: left;
+    border: 1px solid lightslategray;
+    background-color: white;
+    width: 40%;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.sidebar h4{
+    text-align:  left;
+
+
+
+}
+
+.sidebar ul li {
+    list-style: none;
+    line-height: 3em;
+
+
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.footer {
+    background-color: rgb(104, 104, 196);
+    display: 10px;
+    padding: 10px;
+    justify-content: center;
+    
+}
